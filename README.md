@@ -1,8 +1,12 @@
 # Finance API
 
-API REST de controle financeiro pessoal com dashboard: saldo por conta, entradas e saídas e gastos por categoria. Feita com Java, Spring Boot, PostgreSQL, Flyway e autenticação JWT.
+> **Projeto pessoal em construção e estudo**
+>
+> Este projeto está sendo desenvolvido individualmente como parte dos meus estudos em desenvolvimento backend. A API e a documentação podem mudar, e algumas funcionalidades podem estar incompletas. Não é um produto final nem deve ser considerado pronto para uso em produção.
 
-O projeto foi construído passo a passo com foco em boas práticas de backend: isolamento de dados por usuário, validação de entrada, migrations versionadas e tratamento padronizado de erros.
+API REST de controle financeiro pessoal com dashboard: saldo por conta, entradas e saídas e gastos por categoria. Desenvolvida com Java, Spring Boot, PostgreSQL, Flyway e autenticação JWT.
+
+O desenvolvimento é incremental e serve como prática de conceitos de backend, incluindo isolamento de dados por usuário, validação de entrada, migrations versionadas e tratamento padronizado de erros.
 
 ## Funcionalidades
 
