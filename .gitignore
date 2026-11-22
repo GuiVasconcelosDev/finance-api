@@ -31,9 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
-.env.local
 
-# segredos e logs locais
+# Secrets and local logs
 .env
-.env.local
-app.log
+.env.*
+!.env.example
+*.log
