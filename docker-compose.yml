@@ -4,7 +4,7 @@ services:
     environment:
       POSTGRES_DB: finance
       POSTGRES_USER: finance
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD with --env-file .env.local}
     ports:
       - "5433:5432"
     volumes:

@@ -1,7 +1,9 @@
 spring:
+  config:
+    import: optional:file:.env.local[.properties]
+
   application:
     name: finance-api
-
 
   datasource:
     url: jdbc:postgresql://localhost:5433/finance
